@@ -1,0 +1,154 @@
+.rightBar{
+    flex:4;
+    // border:2px solid red;
+    position: sticky;
+    top:65px;
+    height: calc(100vh - 65px);
+    overflow: scroll;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .container{
+        padding:1.2rem 0.8rem 1.2rem 0.5rem;
+        padding-left: 0.3rem;
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        .item{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            -webkit-box-shadow: -1px 0px 5px 2px rgba(181,181,181,0.34);
+            -moz-box-shadow: -1px 0px 5px 2px rgba(181,181,181,0.34);
+            box-shadow: -1px 0px 5px 2px rgba(181,181,181,0.34);
+            padding:1.2rem;
+            span{
+                color:grey;
+                font-size: 0.9rem;
+            }
+            
+            .user{
+                display: flex;
+                align-items: center;
+                gap:1rem;
+                justify-content: space-between;
+                .userInfo{
+                    display: flex;
+                    align-items: center;
+                    gap:0.5rem;
+                    .userImg{
+                        height:30px;
+                        width:30px;
+                        border: 1px solid lightgray;
+                        border-radius: 100%;
+                        object-fit: cover;
+                    }
+                    .userName{
+                        font-size: 0.9rem;
+                        color:black;
+                        font-weight: bold;
+                    }
+                    
+                }
+
+
+                .buttons{
+                    display: flex;
+                    gap:0.5rem;
+
+                    .btn{
+                        padding:0.2rem 0.4rem;
+                        border:none;
+                        color:white;
+                        
+                        &:first-child{
+                            background-color: blue;
+                        }
+                        &:last-child{
+                            background-color: red;
+                        }
+                    }
+                }
+            }
+
+            .notification{
+                display: flex;
+                align-items: center;
+                gap:1rem;
+                justify-content: space-between;
+                .userInfo{
+                    display: flex;
+                    align-items: center;
+                    gap:0.5rem;
+                    .userImg{
+                        height:30px;
+                        width:30px;
+                        border: 1px solid lightgray;
+                        border-radius: 100%;
+                        object-fit: cover;
+                    }
+
+                    div{
+                        // color:grey;
+                        p{
+                            span{
+                                font-size: 0.8rem;
+                                color:black;
+
+                                .userName{
+                                    font-size: 0.9rem;
+                                    color:black;
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+                       
+                    span{
+                        font-size: 0.8rem;
+                    }      
+                    
+                }
+                span{
+                    font-size: 00.8rem;
+
+                }
+                
+            }
+
+
+            .online{
+                .userInfo{
+                    display: flex;
+                    align-items: center;
+                    gap:0.6rem;
+                    position: relative;
+                    .userImg{
+                        height:30px;
+                        width:30px;
+                        border-radius: 100%;
+                        object-fit: cover;
+                        border: 1px solid lightgray;
+                    }
+                    .onDot{
+                        height:8px;
+                        width:8px;
+                        background-color: limegreen;
+                        border-radius: 100%;
+                        position: absolute;
+                        left: 25px;
+                        top:0;
+                    }
+                    .userName{
+                        font-size: 0.9rem;
+                        color:black;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+        }
+    }
+}

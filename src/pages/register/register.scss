@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register{
+    height: 100vh;
+    background: rgb(193,190,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 60%;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 450px;
+        overflow: hidden;
+        
+        .left{
+            flex:1;
+            background: linear-gradient(rgba(92, 29, 128, 0.534),rgba(91, 29, 128, 0.418)), url("https://images.pexels.com/photos/3201718/pexels-photo-3201718.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") center;
+            background-size: cover;
+            padding:3rem;
+            display: flex;
+            flex-direction: column;
+            gap:1.2rem;
+            color:white;
+
+            h1{
+                font-size: 4rem;
+                line-height: 5rem;
+            }
+            p{}
+            span{
+                font-size: 0.9rem;
+            }
+            button{
+                width:50%;
+                background-color:white;
+                color:rebeccapurple;
+                padding:0.7rem;
+                border:none;
+                cursor: pointer;
+                font-weight: bold;
+            }
+        }
+        .right{
+            flex:1;
+            padding:3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            justify-content: center;
+            h1{
+                color:#555;
+            }
+            form{
+                display: flex;
+                flex-direction: column;
+                gap:1.2rem;
+                input{
+                    border:none;
+                    border-bottom: 1px solid #555;
+                    padding:20px 10px;
+                }
+                button{
+                    width:50%;
+                    padding:0.7rem;
+                    cursor: pointer;
+                    font-weight: bold;
+                    background: #938eef;
+                    color:white;
+                    border: none;
+                }
+            }
+        }
+    }
+}
