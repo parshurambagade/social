@@ -27,6 +27,7 @@ const Stories = () => {
         }
     ]
     return (
+        <div className="storyContainer">
         <div className="stories">
             <div className="story">
                 <img src={user.img} alt="user" />
@@ -41,6 +42,7 @@ const Stories = () => {
                     </div>
                 )
             })}
+        </div>
         </div>
     )
 }

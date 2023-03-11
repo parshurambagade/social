@@ -1,11 +1,12 @@
+@import "../../style.scss";
+
 .posts{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    // border: 2px solid black;
-    div{
-        // display: flex;
-        // gap:5rem;
-        // border:2px solid black;
+
+    @include mobile{
+        gap:1.5rem;
     }
+    
 }
