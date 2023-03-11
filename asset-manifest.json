@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/github.io/social/static/css/main.a3fa1807.css",
-    "main.js": "/github.io/social/static/js/main.572ee968.js",
-    "index.html": "/github.io/social/index.html",
-    "main.a3fa1807.css.map": "/github.io/social/static/css/main.a3fa1807.css.map",
-    "main.572ee968.js.map": "/github.io/social/static/js/main.572ee968.js.map"
+    "main.css": "/social/static/css/main.a3886e32.css",
+    "main.js": "/social/static/js/main.39d58da7.js",
+    "index.html": "/social/index.html",
+    "main.a3886e32.css.map": "/social/static/css/main.a3886e32.css.map",
+    "main.39d58da7.js.map": "/social/static/js/main.39d58da7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3fa1807.css",
-    "static/js/main.572ee968.js"
+    "static/css/main.a3886e32.css",
+    "static/js/main.39d58da7.js"
   ]
 }
