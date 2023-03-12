@@ -45,11 +45,11 @@ function App() {
   }
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/social",
       element: <ProtectedRoute><Layout /></ProtectedRoute>,
       children: [
         {
-          path: '/',
+          path: '/social',
           element: <Home />
         },
         {
