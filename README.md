@@ -14,6 +14,12 @@ This is a social media website project built using ReactJS, Node.js, MySQL, CSS,
 ## Design
 ![Design of FriendBook project](assets/react_social_design.png)
 
+## FlowGif
+
+Click to play gif
+
+![FLowGif](assets/friendbookDemo.gif)
+
 ## Technologies Used
 
 - ReactJS: A JavaScript library for building user interfaces.
