@@ -1,4 +1,4 @@
-# Social Media Website
+# FriendBook - A social media website
 
 This is a social media website project built using ReactJS, Node.js, MySQL, CSS, SCSS, HTML, and JavaScript.
 
@@ -10,6 +10,9 @@ This is a social media website project built using ReactJS, Node.js, MySQL, CSS,
 - User Profile Customization: Users can personalize their profiles by updating their name, profile picture, and background image.
 - Follow System: Users can follow other users to stay updated with their posts.
 - Dark Mode: The website provides a dark mode option for a comfortable viewing experience.
+
+## Design
+![Design of FriendBook project](assets/react_social_design.jpg)
 
 ## Technologies Used
 
