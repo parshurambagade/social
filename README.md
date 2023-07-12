@@ -12,7 +12,7 @@ This is a social media website project built using ReactJS, Node.js, MySQL, CSS,
 - Dark Mode: The website provides a dark mode option for a comfortable viewing experience.
 
 ## Design
-![Design of FriendBook project](assets/Untitled design (6).png)
+![Design of FriendBook project](assets/react_social_design.png)
 
 ## Technologies Used
 
