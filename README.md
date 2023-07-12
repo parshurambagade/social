@@ -26,8 +26,8 @@ This is a social media website project built using ReactJS, Node.js, MySQL, CSS,
 2. Install dependencies for the frontend: `cd client` and `npm install`.
 3. Install dependencies for the backend: `cd api` and `npm install`.
 4. Set up the MySQL database and configure the connection in the backend.
-5. Start the backend server: `cd backend` and `npm start`.
-6. Start the frontend development server: `cd frontend` and `npm start`.
+5. Start the backend server: `cd api` and `npm start`.
+6. Start the frontend development server: `cd client` and `npm start`.
 
 Note: Make sure you have Node.js and MySQL installed on your system.
 
